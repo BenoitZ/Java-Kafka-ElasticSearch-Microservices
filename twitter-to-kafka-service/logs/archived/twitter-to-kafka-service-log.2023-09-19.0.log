@@ -1,0 +1,23 @@
+2023-09-19 14:03:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 99843 (/Users/benoit/Downloads/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Downloads/microservices.demo)
+2023-09-19 14:03:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-19 14:03:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.426 seconds (process running for 0.736)
+2023-09-19 14:03:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App start...
+2023-09-19 14:03:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-19 14:11:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 5549 (/Users/benoit/Downloads/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Downloads/microservices.demo)
+2023-09-19 14:11:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-19 14:11:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.407 seconds (process running for 0.672)
+2023-09-19 14:11:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App start...
+2023-09-19 14:11:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-19 14:11:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Welcome, To, You]
+2023-09-19 14:19:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 10189 (/Users/benoit/Downloads/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Downloads/microservices.demo)
+2023-09-19 14:19:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-19 14:19:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.391 seconds (process running for 0.649)
+2023-09-19 14:19:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App start...
+2023-09-19 14:19:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-19 14:19:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome microservices !
+2023-09-19 14:26:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 14423 (/Users/benoit/Downloads/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Downloads/microservices.demo)
+2023-09-19 14:26:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-19 14:26:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.401 seconds (process running for 0.662)
+2023-09-19 14:26:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App start...
+2023-09-19 14:26:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-19 14:26:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome microservices !

@@ -1,0 +1,402 @@
+2023-09-25 10:02:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 43942 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 10:02:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 10:02:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.413 seconds (process running for 0.673)
+2023-09-25 10:02:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App start...
+2023-09-25 10:02:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-25 10:02:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome microservices !
+2023-09-25 10:02:38 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-25 10:02:38 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-25 10:02:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-25 10:02:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2023-09-25 10:02:39 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-25 10:02:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-25 10:02:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2023-09-25 10:02:40 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-25 10:02:40 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-25 10:02:40 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2023-09-25 10:02:41 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-25 10:02:41 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-25 10:02:41 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2023-09-25 10:02:43 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-25 10:02:43 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-25 10:02:43 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2023-09-25 10:02:47 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-25 10:02:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-25 10:02:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2023-09-25 10:02:56 [Twitter Stream consumer /  [1][Waiting for 8000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-25 10:02:56 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-25 10:02:56 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-09-25 10:03:12 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-25 10:03:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-25 10:03:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-09-25 10:03:28 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-25 10:03:29 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-25 10:03:29 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-09-25 10:03:39 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream !
+2023-09-25 13:53:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 69775 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 13:53:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 13:53:47 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 13:53:47 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 13:53:47 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 13:56:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 71070 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 13:56:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 13:56:02 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 13:56:02 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 13:56:02 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 13:56:29 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 71394 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 13:56:29 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 13:56:29 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-09-25 13:56:29 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 13:56:29 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 13:57:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 72028 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 13:57:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 13:57:32 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 13:57:32 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 13:57:32 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 13:58:39 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 72682 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 13:58:39 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 13:58:39 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-09-25 13:58:39 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 13:58:39 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 14:01:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 74393 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:01:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:01:35 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 14:01:35 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:01:35 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 14:02:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 74924 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:02:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:02:23 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 14:02:23 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:02:23 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 14:02:31 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 74941 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:02:31 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:02:31 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 14:02:31 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:02:31 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 14:05:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 76531 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:05:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:05:05 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 14:05:05 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:05:05 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 14:05:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 76753 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:05:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:05:32 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 14:05:32 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:05:32 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 14:06:29 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 77392 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:06:29 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:06:29 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 14:06:29 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:06:29 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 14:10:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 79747 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:10:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:10:35 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 14:10:35 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:10:35 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 14:11:57 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 80598 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:11:57 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:11:57 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-09-25 14:11:57 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:11:57 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 14:12:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 80810 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:12:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:12:17 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-09-25 14:12:17 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:12:17 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2023-09-25 14:14:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 81885 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:14:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:14:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.391 seconds (process running for 0.644)
+2023-09-25 14:14:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App start...
+2023-09-25 14:14:07 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:14:07 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:28)
+Caused by: java.lang.NullPointerException: Cannot invoke "com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData.getTwitterKeywords()" because "this.twitterToKafkaServiceConfigData" is null
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:33)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	... 5 common frames omitted
+2023-09-25 14:14:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 82307 (/Users/benoit/Desktop/microservices.demo/twitter-to-kafka-service/target/classes started by benoit in /Users/benoit/Desktop/microservices.demo)
+2023-09-25 14:14:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 14:14:46 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'streamRunner': No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-25 14:14:46 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-25 14:14:46 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field streamRunner in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
